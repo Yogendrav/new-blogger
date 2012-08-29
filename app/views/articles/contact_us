@@ -1,0 +1,20 @@
+<h2><i><u>Contact us</u></i></h2>
+
+
+<ol>
+<p><b><i><font color="black">Contact General Information(Yogi):-</font></i></b><p/>
+   <p><font color="green">+91-8095491990(yogendra.ogn@gmail.com)</font></p><br/>
+
+   <li><p><u><i><b><font color="black">Blogger enquiries:-</font></b></i></u></p></li><br/>
+   <p><font color="blue">1.Chandan Kumar :- +91-8147523211</font></p>
+   <p><font color="blue">email id :- chandan0707@gmail.com</font></p><br/>
+
+   <p><font color="red">2.Siva :- +91-7411031809</font></p>
+   <p><font color="red">email id :- siva20078@gmail.com</font></p><br/>
+
+<li><p><u><i><b><font color="black">Junior Analyst:-</font></b></i></u></p></li><br/>
+<p><font color="#A52A2A">Rakesh :- +91-7204189255</font></p>
+   <p><font color="#A52A2A">email id :- rakeshmaurya262@gmail.com</font></p><br/>
+
+</ol>
+<%= link_to 'Home',{:action=>'index', :controller=>'articles'}%><br/>

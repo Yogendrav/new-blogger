@@ -1,0 +1,26 @@
+<h1><marquee><center><i><font color="#A52A2A">Welcome to my Blogger</font></i></center></marquee></h1>
+<html>
+<body>
+<div id="topbar">
+  <ul id="topnav">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+
+
+
+
+
+  <%= link_to 'about us', :action=>'about_us'%>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   
+
+  <%= link_to 'contact us', :action=>'contact_us'%>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   
+  <%= link_to 'Blogger Information', :action=>'blogger_information'%>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   
+  </body></html>
+<ul>
+	<h2><i><font color="#800000"><u>List of comments :- </u></font></i></h2>
+<%@articles.each do |article|%>
+<ol>
+<%=link_to article.title, article_path(article)%>
+<%end%><br/><br/></ol>
+
+<font color="#A52A2A"><%=link_to "New Article",new_article_path, :class=>"new_article"%></font>
+<br/>
+</ul>
